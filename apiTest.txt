@@ -1,0 +1,4 @@
+在对应的django项目目录下，cmd执行python manage.py startapp api
+在对应项目的目录下，新增一个api
+
+在manage.py下edit config，配置Parameters： runserver 127.0.0.1:8000
