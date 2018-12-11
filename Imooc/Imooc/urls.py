@@ -16,8 +16,10 @@ Including another URLconf
 from django.contrib import admin
 from django.conf.urls import url
 from web.views import Login
+from web.views import LoginGet
 
 urlpatterns = [
     url('admin/', admin.site.urls),
     url(r'^login/',Login),
+    url(r'^loginget/',LoginGet),
 ]
