@@ -7,12 +7,13 @@ def Login(request):
     if request.method == 'POST':
         result = {}
         username = request.POST.get('username')
-        password = result.POST.get('password')
+        password = request.POST.get('password')
         result['user'] = username
         result['pass'] = password
         result = json.dumps(result)
         return HttpResponse(result,content_type='application/json;charset=utf-8')
         #'dict' object has no attribute 'POST'
+        #cause,"password = result.POST.get('
     else:
         return render_to_response('login.html')
 
