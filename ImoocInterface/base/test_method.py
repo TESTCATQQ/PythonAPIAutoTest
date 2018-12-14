@@ -1,13 +1,36 @@
 import unittest
-from demo import Run_Main
+from package.demo2 import Run_Main
+#from demo import Run_Main
 
 class TestMethod(unittest.TestCase):
 
-    def test_01(self):
-        print('Try my first test.')
+    # def __init__(self):
+    #     print(1)
+
+    def setUp(self):
+        self.run = Run_Main()
+        self.url = 'http://127.0.0.1:8000/login/'
     
-    def test_02(self):
-        print('Try my second test.')
+    def tearDown(self):
+        print('End')
+
+    def test_01(self):
+        data1 = {
+        'username':'Junjie',
+        'password':'123456'
+        }
+        res = self.run.run_main(self.url,'POST',data1)
+        print(res)
+    
+    def test_02(self,url):
+        url2 = 'http://127.0.0.1:8000/login/'
+        data2 = {
+        'username':'ZhaoJunjie',
+        'password':'12345678'
+        }
+        res = self.run.run_main(url2,'POST',data2)
+        print(res)
+        print('This is second unittest')
 
 
 if __name__ == '__main__':

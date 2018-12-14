@@ -2,6 +2,9 @@ import requests
 import json
 
 class Run_Main:
+
+    def __init__(self):
+        print('Excute itself')
     
     def send_post(self,url,data):
         res = requests.post(url=url,data=data).json()
