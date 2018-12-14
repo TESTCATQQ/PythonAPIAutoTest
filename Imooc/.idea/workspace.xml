@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4805cc01-625b-47b5-a617-6330c7df4438" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ImoocInterface/base/test_method.py" beforeDir="false" afterPath="$PROJECT_DIR$/../ImoocInterface/base/test_method.py" afterDir="false" />
-    </list>
+    <list default="true" id="4805cc01-625b-47b5-a617-6330c7df4438" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -243,12 +240,12 @@
       <workItem from="1544590468493" duration="3628000" />
       <workItem from="1544624520810" duration="1305000" />
       <workItem from="1544710687132" duration="1921000" />
-      <workItem from="1544805785440" duration="646000" />
+      <workItem from="1544805785440" duration="648000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15587000" />
+    <option name="totallyTimeSpent" value="15589000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -258,7 +255,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.36659437" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.36659437" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39770868" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
