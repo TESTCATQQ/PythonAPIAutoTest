@@ -1,6 +1,6 @@
 import unittest
-from package.demo2 import Run_Main
-#from demo import Run_Main
+from package.demo2 import RunMain
+#from demo import RunMain
 
 class TestMethod(unittest.TestCase):
 
@@ -8,7 +8,7 @@ class TestMethod(unittest.TestCase):
     #     print(1)
 
     def setUp(self):
-        self.run = Run_Main()
+        self.run = RunMain()
         self.url = 'http://127.0.0.1:8000/login/'
     
     def tearDown(self):

@@ -1,7 +1,7 @@
 import requests
 import json
 
-class Run_Main:
+class RunMain:
 
     def __init__(self):
         print('Excute itself')
@@ -39,6 +39,6 @@ if __name__ == '__main__':
         'data':'this is data'
     }
 
-    myrun = Run_Main()
+    myrun = RunMain()
     res = myrun.run_main(url1,'POST',data1)
     print(res)
