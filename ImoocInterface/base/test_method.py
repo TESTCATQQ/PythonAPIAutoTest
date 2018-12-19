@@ -1,5 +1,6 @@
 import unittest
 from package.demo2 import RunMain
+import json
 #from demo import RunMain
 
 class TestMethod(unittest.TestCase):
@@ -20,16 +21,18 @@ class TestMethod(unittest.TestCase):
         'password':'123456'
         }
         res = self.run.run_main(self.url,'POST',data1)
+        #print(type(res)) str?
         print(res)
     
-    def test_02(self,url):
+    def test_02(self):
         url2 = 'http://127.0.0.1:8000/login/'
         data2 = {
         'username':'ZhaoJunjie',
         'password':'12345678'
         }
         res = self.run.run_main(url2,'POST',data2)
-        print(res)
+        #print(json.loads(res,indent=2,sort_keys=True))
+        print(json.dumps(res,indent=2,sort_keys=True))
         print('This is second unittest')
 
 
